@@ -5,7 +5,7 @@ Create a personalized certificate of achievement with the "Proud of Your Progres
 ## Steps for Submission
 1. **Clone Starter Code:** Begin by cloning the Starter Code Repository from [GitHub](https://github.com/CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_JSL07).
 2. **Develop Your Solution:** Write your code to implement the project's functionality.
-3. **Commit Your Changes:** As you make progress, commit your changes with meaningful messages.
+3. **Commit Your Changes:** As you make progress, commit your changes with meaningful messages. 
 4. **Push to GitHub:** Upload your local repository changes to GitHub.
 5. **Submit Your Work:** Share your GitHub Repository Link on the LMS under the [JSL07] Submission Project Tab.
 
@@ -38,5 +38,5 @@ Partial implementation for collecting input values, where specific assignments a
 - **Functionality:** Your modifications will be assessed for adherence to project requirements.
 - **Commit History:** Your commit messages and history will reflect your development process.
 
-Get going and celebrate your progress 🥳🥳🥳
+Get going and celebrate your progress 🥳🥳🥳 Vinolia 
 
