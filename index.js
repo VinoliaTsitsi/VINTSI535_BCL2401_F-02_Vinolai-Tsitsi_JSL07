@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = 
-      `<h3>${studentName}</h3>
+      certificateContent.innerHTML = `
+      <img src="image/logo.png" "alt=logo" class="logo">
+      <h3>${studentName}</h3>
       <p>${personalMessage}</P>
       <p>course: ${courseName}</p>`;
     
@@ -36,8 +37,30 @@ document.addEventListener('DOMContentLoaded', function () {
       // Clear the form inputs
       studentNameInput.value = '';
       personalMessageInput.value = '';
-      if(courseNameInput) courseNameInput.value = '';
+      courseNameInput.value = '';
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   
     //  🚨 Close the modal when the close button is clicked
     closeModal.addEventListener('click', function () {
