@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
   
       const studentName = studentNameInput.value;
       const personalMessage = personalMessageInput.value;
-      const courseName = courseNameInput ? courseNameInput.value : "a course"; // Fallback to "a course" if no input
+      const courseName = courseNameInput ? courseNameInput.value : "a course";
+      // Fallback to "a course" if no input
   
       if (studentName.trim() === '' || personalMessage.trim() === '') {
         alert('Please fill in all fields');
@@ -26,19 +27,31 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // 🚨 Generate certificate content dynamically
       certificateContent.innerHTML = `
-      <img src="image/logo.png" "alt=logo" class="logo">
-      <h3>${studentName}</h3>
-      <p>${personalMessage}</P>
-      <p>course: ${courseName}</p>`;
-    
+      <h1>Certficate of Achievement</h1>
+      <p> This is to certify that</p>
+      <h3>${studentName }</h3>
+      <p>has almost completed the </p>
+      <h3>${courseName}</h3>
+      <p>With legendary persevereance and world-class bad-assery for never giving up🏆.</p>
+      <img src="logo.png" style="margin-top: 20px; max-height: 100px;">
+      <h3>${personalMessage}🎓</h3>
+      `;
+
       //  Display the modal
-      modal.style.display = 'block';
-  
+         modal.style.display = 'block';
+
       // Clear the form inputs
-      studentNameInput.value = '';
-      personalMessageInput.value = '';
-      courseNameInput.value = '';
-    });
+          studentNameInput.value = '';
+          personalMessageInput.value = '';
+          courseNameInput.value = '';
+ 
+     });
+
+     closeModal.addEventListener('click', function (){
+      //hide the modal when close button is clicked
+      modal.style.display = 'none';
+     });
+  });
 
 
 
@@ -60,11 +73,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    
   
     //  🚨 Close the modal when the close button is clicked
     closeModal.addEventListener('click', function () {
       modal.style.display = 'none'
     });
-  });
+  
   
